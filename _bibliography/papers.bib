@@ -1,0 +1,202 @@
+---
+---
+@article{guan2025keeping,
+  title={Keeping Medical AI Healthy: A Review of Detection and Correction Methods for System Degradation},
+  author={Guan, Hao and Bates, David and Zhou, Li},
+    abstract={Artificial intelligence (AI) is increasingly integrated into modern healthcare, offering powerful support for clinical decision-making. However, in real-world settings, AI systems may experience performance degradation over time, due to factors such as shifting data distributions, changes in patient characteristics, evolving clinical protocols, and variations in data quality. These factors can compromise model reliability, posing safety concerns and increasing the likelihood of inaccurate predictions or adverse outcomes. This review presents a forward-looking perspective on monitoring and maintaining the “health” of AI systems in healthcare. We highlight the urgent need for continuous performance monitoring, early degradation detection, and effective self-correction mechanisms. The paper begins by reviewing common causes of performance degradation at both data and model levels. We then summarize key techniques for detecting data and model drift, followed by an in-depth look at root cause analysis. Correction strategies are further reviewed, ranging from model retraining to test-time adaptation. Our survey spans both traditional machine learning models and state-of-the-art large language models (LLMs), offering insights into their strengths and limitations. Finally, we discuss ongoing technical challenges and propose future research directions. This work aims to guide the development of reliable, robust medical AI systems capable of sustaining safe, long-term deployment in dynamic clinical settings.},
+  arxiv={2506.17442},
+  journal={arXiv preprint arXiv:2506.17442},
+  year={2025},
+  pdf={AI_Monitoring_Survey.pdf},
+  selected={true},
+  bibtex_show = true,
+  preview={AI_Monitoring.png}
+}
+
+
+@article{guan2025cd,
+  title={CD-Tron: Leveraging Large Clinical Language Model for Early Eetection of Cognitive Decline from Electronic Health Records},
+  author={Guan, Hao and Novoa-Laurentiev, John and Zhou, Li},
+  abstract={Background:
+Early detection of cognitive decline during the preclinical stage of Alzheimer’s disease and related dementias (AD/ADRD) is crucial for timely intervention and treatment. Clinical notes in the electronic health record contain valuable information that can aid in the early identification of cognitive decline. In this study, we utilize advanced large clinical language models, fine-tuned on clinical notes, to improve the early detection of cognitive decline.
+Methods:
+We collected clinical notes from 2,166 patients spanning the 4 years preceding their initial mild cognitive impairment (MCI) diagnosis from the Enterprise Data Warehouse of Mass General Brigham. To train the model, we developed CD-Tron, built upon a large clinical language model that was finetuned using 4,949 expert-labeled note sections. For evaluation, the trained model was applied to 1,996 independent note sections to assess its performance on real-world unstructured clinical data. Additionally, we used explainable AI techniques, specifically SHAP values (SHapley Additive exPlanations), to interpret the model’s predictions and provide insight into the most influential features. Error analysis was also facilitated to further analyze the model’s prediction.
+Results:
+CD-Tron significantly outperforms baseline models, achieving notable improvements in precision, recall, and AUC metrics for detecting cognitive decline (CD). Tested on many real-world clinical notes, CD-Tron demonstrated high sensitivity with only one false negative, crucial for clinical applications prioritizing early and accurate CD detection. SHAP-based interpretability analysis highlighted key textual features contributing to model predictions, supporting transparency and clinician understanding.
+Conclusion:
+CD-Tron offers a novel approach to early cognitive decline detection by applying large clinical language models to free-text EHR data. Pretrained on real-world clinical notes, it accurately identifies early cognitive decline and integrates SHAP for interpretability, enhancing transparency in predictions.},
+  journal={Journal of Biomedical Informatics},
+  year={2025},
+  publisher= {Elsevier},
+  doi={10.1016/j.jbi.2025.104830},
+  pdf={CD-Tron.pdf},
+  selected={true},
+  bibtex_show = true,
+  preview={CD-Tron.png},
+  code={https://github.com/guanharry/CD-Tron}
+}
+
+@article{guan2021domain,
+  title={Domain Adaptation for Medical Image Analysis: A survey},
+  author={Hao Guan, and Mingxia Liu.},
+  abstract={Machine learning techniques used in computer-aided medical image analysis usually suffer from the domain shift problem caused by different distributions between source/reference data and target data. As a promising solution, domain adaptation has attracted considerable attention in recent years. The aim of this paper is to survey the recent advances of domain adaptation methods in medical image analysis. We first present the motivation of introducing domain adaptation techniques to tackle domain heterogeneity issues for medical image analysis. Then we provide a review of recent domain adaptation models in various medical image analysis tasks. We categorize the existing methods into shallow and deep models, and each of them is further divided into supervised, semi-supervised and unsupervised methods. We also provide a brief summary of the benchmark medical image datasets that support current domain adaptation research. This survey will enable researchers to gain a better understanding of the current status, challenges and future directions of this energetic research field.},
+  journal={IEEE Transactions on Biomedical Engineering},
+  volume={69},
+  issue={3},
+  pages={1173--1185},
+  year={2022},
+  publisher= {IEEE},
+  doi={10.1109/TBME.2021.3117407},
+  pdf={DA_Survey.pdf},
+  selected={true},
+  bibtex_show = true,
+  preview={DA_Survey.png}
+}
+
+@article{guan2023domainatm,
+  title={DomainATM: Domain Adaptation Toolbox for Medical Data Analysis},
+  author={Guan, Hao and Liu, Mingxia},
+  abstract={Domain adaptation (DA) is an important technique for modern machine learning-based medical data analysis, which aims at reducing distribution differences between different medical datasets. A proper domain adaptation method can significantly enhance the statistical power by pooling data acquired from multiple sites/centers. To this end, we have developed the Domain Adaptation Toolbox for Medical data analysis (DomainATM) – an open-source software package designed for fast facilitation and easy customization of domain adaptation methods for medical data analysis. The DomainATM is implemented in MATLAB with a user-friendly graphical interface, and it consists of a collection of popular data adaptation algorithms that have been extensively applied to medical image analysis and computer vision. With DomainATM, researchers are able to facilitate fast feature-level and image-level adaptation, visualization and performance evaluation of different adaptation methods for medical data analysis. More importantly, the DomainATM enables the users to develop and test their own adaptation methods through scripting, greatly enhancing its utility and extensibility. An overview characteristic and usage of DomainATM is presented and illustrated with three example experiments, demonstrating its effectiveness, simplicity, and flexibility. The software, source code, and manual are available online.},
+  journal={NeuroImage},
+  volume={268},
+  pages={119863},
+  year={2023},
+  publisher= {Elsevier},
+  doi={10.1016/j.neuroimage.2023.119863},
+  pdf={DomainATM.pdf},
+  selected={true},
+  bibtex_show = true,
+  preview={DomainATM.png},
+  code={https://github.com/guanharry/domainATM}
+}
+
+@article{guan2024federated,
+  title={Federated Learning for Medical Image Analysis: A survey},
+  author={Guan, Hao and Yap, Pew-Thian and Bozoki, Andrea and Liu, Mingxia},
+  abstract={Machine learning in medical imaging often faces a fundamental dilemma, namely, the small sample size problem. Many recent studies suggest using multi-domain data pooled from different acquisition sites/centers to improve statistical power. However, medical images from different sites cannot be easily shared to build large datasets for model training due to privacy protection reasons. As a promising solution, federated learning, which enables collaborative training of machine learning models based on data from different sites without cross-site data sharing, has attracted considerable attention recently. In this paper, we conduct a comprehensive survey of the recent development of federated learning methods in medical image analysis. We have systematically gathered research papers on federated learning and its applications in medical image analysis published between 2017 and 2023. Our search and compilation were conducted using databases from IEEE Xplore, ACM Digital Library, Science Direct, Springer Link, Web of Science, Google Scholar, and PubMed. In this survey, we first introduce the background of federated learning for dealing with privacy protection and collaborative learning issues. We then present a comprehensive review of recent advances in federated learning methods for medical image analysis. Specifically, existing methods are categorized based on three critical aspects of a federated learning system, including client end, server end, and communication techniques. In each category, we summarize the existing federated learning methods according to specific research problems in medical image analysis and also provide insights into the motivations of different approaches. In addition, we provide a review of existing benchmark medical imaging datasets and software platforms for current federated learning research. We also conduct an experimental study to empirically evaluate typical federated learning methods for medical image analysis. This survey can help to better understand the current research status, challenges, and potential research opportunities in this promising research field.},
+  journal={Pattern Recognition},
+  volume={151},
+  pages={110424},
+  year={2024},
+  publisher= {Elsevier},
+  doi={10.1016/j.patcog.2024.110424},
+  pdf={PR_Survey.pdf},
+  selected={true},
+  bibtex_show = true,
+  preview={FL_Survey.png}
+}
+
+
+
+@string{aps = {American Physical Society,}}
+
+@book{einstein1920relativity,
+  title={Relativity: the Special and General Theory},
+  author={Einstein, Albert},
+  year={1920},
+  publisher={Methuen & Co Ltd},
+  html={relativity.html}
+}
+
+@book{einstein1956investigations,
+  bibtex_show={true},
+  title={Investigations on the Theory of the Brownian Movement},
+  author={Einstein, Albert},
+  year={1956},
+  publisher={Courier Corporation},
+  preview={brownian-motion.gif}
+}
+
+@article{einstein1950meaning,
+  abbr={AJP},
+  bibtex_show={true},
+  title={The meaning of relativity},
+  author={Einstein, Albert and Taub, AH},
+  journal={American Journal of Physics},
+  volume={18},
+  number={6},
+  pages={403--404},
+  year={1950},
+  publisher={American Association of Physics Teachers}
+}
+
+@article{PhysRev.47.777,
+  abbr={PhysRev},
+  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal={Phys. Rev.},
+  location={New Jersey},
+  volume={47},
+  issue={10},
+  pages={777--780},
+  numpages={0},
+  year={1935},
+  month={May},
+  publisher=aps,
+  doi={10.1103/PhysRev.47.777},
+  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={example_pdf.pdf},
+  altmetric={248277},
+  dimensions={true},
+  google_scholar_id={qyhmnyLat1gC},
+  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+  annotation={* Example use of superscripts<br>† Albert Einstein},
+  selected={false},
+  inspirehep_id = {3255}
+}
+
+@article{einstein1905molekularkinetischen,
+  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+  author={Einstein, A.},
+  journal={Annalen der physik},
+  volume={322},
+  number={8},
+  pages={549--560},
+  year={1905},
+  publisher={Wiley Online Library}
+}
+
+@article{einstein1905movement,
+  abbr={Ann. Phys.},
+  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+  author={Einstein, A.},
+  journal={Ann. Phys.},
+  volume={17},
+  pages={549--560},
+  year={1905}
+}
+
+@article{einstein1905electrodynamics,
+  title={On the electrodynamics of moving bodies},
+  author={Einstein, A.},
+  year={1905}
+}
+
+@Article{einstein1905photoelectriceffect,
+  bibtex_show={true},
+  abbr={Ann. Phys.},
+  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
+  author={Albert Einstein},
+  abstract={This is the abstract text.},
+  journal={Ann. Phys.},
+  volume={322},
+  number={6},
+  pages={132--148},
+  year={1905},
+  doi={10.1002/andp.19053220607},
+  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+  award_name={Nobel Prize}
+}
+
+@book{przibram1967letters,
+  bibtex_show={true},
+  title={Letters on wave mechanics},
+  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+  year={1967},
+  publisher={Vision},
+  preview={wave-mechanics.gif},
+  abbr={Vision}
+}
