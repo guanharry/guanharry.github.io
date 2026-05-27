@@ -21,14 +21,15 @@ title: Services
 - IEEE Transactions on Neural Systems & Rehabilitation Engineering
 - IEEE Transactions on Computational Social Systems
 - ACM Transactions on Computing for Healthcare
+- ACM Transactions on Intelligent Systems and Technology
 - ACM Computing Surveys
 - Scientific Reports
+- International Journal of Computational Intelligence Systems
 - Imaging Neuroscience
 - Artificial Intelligence in Medicine
 - Pattern Recognition
 - Neural Networks
 - Neurocomputing
-- International Journal of Computational Intelligence Systems
 - PLOS ONE
 
 ---
