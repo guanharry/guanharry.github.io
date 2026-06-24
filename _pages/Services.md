@@ -14,6 +14,7 @@ title: Services
 ---
 ### **Journal Reviewer**
 
+- npj Digital Medicine
 - International Journal of Medical Informatics
 - IEEE Transactions on Medical Imaging
 - IEEE Journal of Biomedical and Health Informatics
@@ -23,13 +24,13 @@ title: Services
 - ACM Transactions on Computing for Healthcare
 - ACM Transactions on Intelligent Systems and Technology
 - ACM Computing Surveys
-- Scientific Reports
-- International Journal of Computational Intelligence Systems
-- Imaging Neuroscience
 - Artificial Intelligence in Medicine
 - Pattern Recognition
 - Neural Networks
 - Neurocomputing
+- Scientific Reports
+- International Journal of Computational Intelligence Systems
+- Imaging Neuroscience
 - PLOS ONE
 
 ---
