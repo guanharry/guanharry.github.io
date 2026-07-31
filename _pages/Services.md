@@ -16,6 +16,7 @@ title: Services
 
 - npj Digital Medicine
 - International Journal of Medical Informatics
+- Medical Image Analysis
 - IEEE Transactions on Medical Imaging
 - IEEE Journal of Biomedical and Health Informatics
 - IEEE Transactions on Circuits and Systems for Video Technology
