@@ -4,12 +4,6 @@ layout: page
 nav: "true"
 nav_order: "2"
 title: Services
----
-### **Grant Reviewer**
-
-- French National Research Agency (ANR)
-- Harvard Catalyst Pilot Grant Program
-
 
 ---
 ### **Journal Reviewer**
