@@ -38,7 +38,7 @@ title: Services
 ---
 ### **Conference Reviewer**
 
-- International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+- International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)
 - AMIA Annual Symposium
 
 ---
